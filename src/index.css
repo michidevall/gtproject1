@@ -25,4 +25,8 @@ img {
   transition: transform 0.2s;
 }
 
-
+@media (max-width: 768px) {
+  body {
+    font-family: "New Kansas Swash", sans-serif;
+  }
+  
