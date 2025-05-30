@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
  // Ensure you have a CSS file for styling
-
  export const ContactForm = () => {
    const form = useRef();
 
@@ -11,7 +10,7 @@ import emailjs from "@emailjs/browser";
      emailjs
        .sendForm(
          "service_ovgydmk",    
-         "template_mbq18p6",
+         "template_7sdeu6c",
          form.current,
          { publicKey: "ev_hmt0SszrIJbe-T" 
    })
@@ -34,7 +33,7 @@ import emailjs from "@emailjs/browser";
        <input type="email" name="user_email" required />
 
        <label>Phone Number:</label>
-       <input type="phone" name="user_phone" required /> 
+       <input type="tel" name="user_phone" required /> 
 
        <label>Message:</label>
        <textarea name="message" required />
