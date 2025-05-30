@@ -13,7 +13,7 @@ import emailjs from "@emailjs/browser";
          "service_ovgydmk",    
          "template_mbq18p6",
          form.current,
-         "ev_hmt0SszrIJbe-T"
+         { publicKey: "ev_hmt0SszrIJbe-T" }
        )
        .then(
          () => {
