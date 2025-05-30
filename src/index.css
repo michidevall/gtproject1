@@ -1,30 +1,16 @@
-/* body {
+ 
+ body {
   margin: 0;
   /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','New Kansas Swash', */
     /* sans-serif; */
-  /* font-family: "New Kansas Swash", sans-serif;
+  font-family: "New Kansas Swash", sans-serif;
   font-weight: 300;
-  font-style: italic; */
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
- */
- 
-@import url('https://fonts.googleapis.com/css2?family=New+Kansas+Swash:wght@300&display=swap');
-body {
-  margin: 0;
-  font-family: 'New Kansas Swash', sans-serif;
-  font-weight: 300;
-  font-style: italic;
+  font-style: italic; 
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #1e445c;
-  color: #e5013d;
-}
-.App {
-  text-align: center;
-  font-size: 30px;
-}
+  -moz-osx-font-smoothing: grayscale; 
+ }
+ 
 
 
 
