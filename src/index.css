@@ -4,6 +4,8 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue','New Kansas Swash', */
     /* sans-serif; */
   font-family: "New Kansas Swash", sans-serif;
+  font-weight: 300;
+  font-style: italic;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
 }
