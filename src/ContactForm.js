@@ -33,8 +33,8 @@ import emailjs from "@emailjs/browser";
        <label>Email:</label>
        <input type="email" name="user_email" required />
 
-       {/* <label>Phone Number:</label>
-       <input type="phone" name="user_phone" required /> */}
+       <label>Phone Number:</label>
+       <input type="phone" name="user_phone" required /> 
 
        <label>Message:</label>
        <textarea name="message" required />
