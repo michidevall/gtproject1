@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
  // Ensure you have a CSS file for styling
 
- const ContactForm = () => {
+ export const ContactForm = () => {
    const form = useRef();
 
    const sendEmail = (e) => {
@@ -13,8 +13,8 @@ import emailjs from "@emailjs/browser";
          "service_ovgydmk",    
          "template_mbq18p6",
          form.current,
-         { publicKey: "ev_hmt0SszrIJbe-T" }
-       )
+         { publicKey: "ev_hmt0SszrIJbe-T" 
+   })
        .then(
          () => {
            alert("Message sent!");
