@@ -10,7 +10,7 @@ import emailjs from "@emailjs/browser";
      emailjs
        .sendForm(
          "service_ovgydmk",    
-         "template_7sdeu6c",
+         "template_pkdbt4d",
          form.current,
          { publicKey: "ev_hmt0SszrIJbe-T" 
    })
