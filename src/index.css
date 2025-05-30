@@ -9,13 +9,8 @@
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
  */
-@font-face {
-  font-family: 'New Kansas Swash';
-  src: url('./fonts/NewKansasSwash.woff2') format('woff2'),
-       url('./fonts/NewKansasSwash.woff') format('woff');
-  font-weight: 300;
-  font-style: italic;
-}
+ 
+@import url('https://fonts.googleapis.com/css2?family=New+Kansas+Swash:wght@300&display=swap');
 body {
   margin: 0;
   font-family: 'New Kansas Swash', sans-serif;
