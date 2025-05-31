@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} alt="Logo" className="App-logo" />
+        <img src={logo} alt="Logo" className="App-logo" 
         <h1>Welcome to G & T Estate Services</h1>
         {/* <p>A brief description of your product or service.</p> */}
         <button onClick={() => window.open('https://www.instagram.com/gtestateservicesltd/', '_blank')}>
