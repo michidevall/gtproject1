@@ -11,7 +11,6 @@ function App() {
       <header className="App-header">
         <img src={logo} alt="Logo" className="App-logo"></img> 
         <h1>Welcome to G & T Estate Services</h1>
-        {/* <p>A brief description of your product or service.</p> */}
         <button onClick={() => window.open('https://www.instagram.com/gtestateservicesltd/', '_blank')}>
       <img src={instagramLogo} alt="instagram" style={{height: "60px", width: "auto"}} />
       </button>
@@ -20,9 +19,6 @@ function App() {
   <img src="https://www.estatesales.net/assets/images/logos/dark100.png" width="385" height="65" alt="EstateSales.NET" />
 </a>
       </button>
-      {/* <button onClick={() => window.open('https://www.instagram.com/gtestateservicesltd/', '_blank')}>
-      <img src={instagramLogo} alt="instagram" style={{height: "60px", width: "auto"}} />
-      </button> */}
     <button onClick={() => window.open('https://www.etsy.com/shop/gtvintageco/?etsrc=sdt', '_blank')}>
     <img src={etsyLogo} alt="etsy" style={{height: "60px", width: "auto"}} />
       </button>
