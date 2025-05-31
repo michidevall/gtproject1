@@ -27,13 +27,10 @@ function App() {
         <section className="features">
           <h2>About Us</h2>
           <div className="feature">
-            {/* <h3>Feature 1</h3> */}
+          
             <p>With well over a decade in Denver's estate sale scene, we bring big company know-how with a genuine personal touch.  We understand that this process can be daunting, and our main focus is on making these transitions as easy as possible on our clients. We offer flexible terms, a wealth of knowledge, and real local experience. </p>
           </div>
-          {/* <div className="feature">
-            <h3>Feature 2</h3>
-            <p>Description of feature 2.</p>
-          </div> */}
+      
         </section>
         <section className="contact">
           <h2>Contact Us</h2>
@@ -50,7 +47,6 @@ function App() {
           </div>
           
          <div className="App">
-         {/* <h1>Contact</h1> */}
         <ContactForm />
          </div>
         </section>
